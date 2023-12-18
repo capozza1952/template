@@ -316,6 +316,14 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.header-area .main-nav .flag {
+  float: right;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .header-area .main-nav .logo h4 {
     font-size: 30px;
     font-weight: 800;
@@ -849,7 +857,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 120px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -863,7 +871,7 @@ Banner Style
   top: 100px;
   width: 212px;
   height: 653px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .main-banner:before {
@@ -875,7 +883,7 @@ Banner Style
   top: 100px;
   width: 1159px;
   height: 797px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .main-banner .left-content {
@@ -1495,14 +1503,17 @@ contact
 }
 
 .contact-us .contact-info {
+      display: flex;
+    justify-content: space-around;
   padding: 40px 30px;
   border: 2px solid #eee;
 }
 
 .contact-us .contact-info ul li {
+  float: left;
   text-align: center;
   display: block;
-  margin-bottom: 30px;
+  margin: 0 16px !important;
 }
 
 .contact-us .contact-info ul li a {
