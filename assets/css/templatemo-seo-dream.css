@@ -1609,6 +1609,45 @@ form#contact button:hover {
   border-bottom: 2px solid #33ccc5!important;
 }
 
+
+/**
+ *  custom
+ * */
+
+
+.prices_offer_container{
+  margin: 30px 0;display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;
+}
+.prices_offer_item{
+  flex: 1 1 350px; 
+  margin: 20px 20px; 
+  padding: 20px 40px; 
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 450px;
+}
+
+.prices_offer_price{
+  text-align: center;
+}
+
+.prices_offer_price h6{
+  color: rgb(0 0 0 / 43%)
+}
+
+.prices_offer_gray{
+  color: rgb(0 0 0 / 43%)
+}
+
+.prices_offer_montant{
+  font-size: 90px; font-weight: 400
+}
+.prices_offer_devise{
+  font-size: 30px;
+}
+
+
+
+
 /* 
 ---------------------------------------------
 Footer Style
